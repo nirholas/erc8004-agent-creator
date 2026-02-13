@@ -1,8 +1,10 @@
 # ERC-8004 Agent Creator
 
-> Create ERC-8004 Trustless Agents on BNB Smart Chain — dead simple.
+> Create and register ERC-8004 trustless AI agents on any EVM chain — dead simple.
 
-A standalone, single-page application for registering AI agent identities on-chain using the [ERC-8004: Trustless Agents](https://www.8004.org) standard. Each agent gets a portable, censorship-resistant ERC-721 NFT identity, discoverable across the entire agent economy.
+**[▶ Launch App](https://erc8004.vercel.app/)** · **[ERC-8004 Spec](https://www.8004.org)** · **[BNB Chain AI Toolkit](https://bnbchaintoolkit.com)**
+
+A standalone, zero-dependency single-page application for registering AI agent identities on-chain using the [ERC-8004: Trustless Agents](https://www.8004.org) standard. Each agent gets a portable, censorship-resistant ERC-721 NFT identity, discoverable across the entire agent economy.
 
 ## What is ERC-8004?
 
@@ -95,9 +97,11 @@ The registration creates a JSON document following the ERC-8004 spec:
 
 ## Links
 
+- [▶ Live App — erc8004.vercel.app](https://erc8004.vercel.app/)
 - [ERC-8004 Specification](https://www.8004.org)
 - [ERC-8004 Contracts](https://github.com/erc-8004/erc-8004-contracts)
 - [BNB Chain AI Toolkit](https://bnbchaintoolkit.com)
+- [Also available at bnbchaintoolkit.com/erc8004](https://bnbchaintoolkit.com/erc8004)
 - [Our BSC Testnet Deployment TX](https://testnet.bscscan.com/tx/0xfc55d83d20e6d92ff522f302fd3424d3fd5557f25c06f4bfc38ecf3246dc1962)
 
 ## License
