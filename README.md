@@ -6,7 +6,7 @@
 
 <br>
 
-<a href="https://github.com/nirholas/erc8004-agent-creator/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&labelColor=000" alt="MIT License" /></a>
+<a href="https://github.com/nirholas/erc8004-agent-creator/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache_2.0-blue.svg?style=for-the-badge&labelColor=000" alt="Apache 2.0 License" /></a>
 <a href="https://github.com/nirholas/erc8004-agent-creator/stargazers"><img src="https://img.shields.io/github/stars/nirholas/erc8004-agent-creator?style=for-the-badge&logo=github&color=yellow&labelColor=000" alt="Stars" /></a>
 <a href="https://github.com/nirholas/erc8004-agent-creator/network/members"><img src="https://img.shields.io/github/forks/nirholas/erc8004-agent-creator?style=for-the-badge&logo=github&color=purple&labelColor=000" alt="Forks" /></a>
 <a href="https://github.com/nirholas/erc8004-agent-creator/issues"><img src="https://img.shields.io/github/issues/nirholas/erc8004-agent-creator?style=for-the-badge&labelColor=000" alt="Issues" /></a>
@@ -258,8 +258,6 @@ Drop `index.html` on Vercel, Netlify, GitHub Pages, IPFS, or any static host. On
 | **▶ Live App** | [erc8004.agency](https://erc8004.agency/) |
 | **📋 ERC-8004 Spec** | [8004.org](https://www.8004.org) |
 | **📦 Contracts Repo** | [erc-8004/erc-8004-contracts](https://github.com/erc-8004/erc-8004-contracts) |
-| **🔶 BNB Chain AI Toolkit** | [bnbchaintoolkit.com](https://bnbchaintoolkit.com) |
-| **🔶 Also available at** | [bnbchaintoolkit.com/erc8004](https://bnbchaintoolkit.com/erc8004) |
 | **🧾 First Testnet TX** | [BscScan ↗](https://testnet.bscscan.com/tx/0xfc55d83d20e6d92ff522f302fd3424d3fd5557f25c06f4bfc38ecf3246dc1962) |
 
 ---
@@ -278,7 +276,7 @@ Contributions welcome! Whether it's a bug fix, new feature, or documentation imp
 
 ## 📄 License
 
-MIT © [nirholas](https://github.com/nirholas)
+Apache 2.0 © [nirholas](https://github.com/nirholas)
 
 ---
 
