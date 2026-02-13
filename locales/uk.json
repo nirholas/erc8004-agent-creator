@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 Конструктор Агентів", "subtitle": "Реєструйте бездовірних AI-агентів у блокчейні", "description": "Створюйте та реєструйте бездовірних AI-агентів ERC-8004 на будь-якому ланцюгу EVM." },
+  "nav": { "home": "Головна", "docs": "Документація", "github": "GitHub", "language": "Мова" },
+  "wizard": { "step1": "Ідентичність Агента", "step1_desc": "Визначте ім'я, опис та зображення", "step2": "Кінцеві Точки", "step2_desc": "Налаштуйте ендпоінти A2A, MCP та інші", "step3": "Налаштування та Довіра", "step3_desc": "Налаштуйте механізми довіри та підтримку платежів", "step4": "Розгортання On-Chain", "step4_desc": "Зареєструйте агента в блокчейні" },
+  "form": { "name": "Ім'я Агента", "name_placeholder": "Мій AI-агент", "description": "Опис", "description_placeholder": "Що робить ваш агент?", "image": "URL Зображення", "image_placeholder": "https://example.com/avatar.png", "service_name": "Назва Сервісу", "service_endpoint": "URL Ендпоінту", "add_service": "Додати Сервіс", "remove": "Видалити" },
+  "buttons": { "next": "Далі", "back": "Назад", "deploy": "Розгорнути Агента", "connect_wallet": "Підключити Гаманець", "copy": "Копіювати", "view_explorer": "Переглянути в Оглядачі" },
+  "validation": { "required": "Це поле обов'язкове", "invalid_url": "Введіть коректний URL", "name_too_short": "Ім'я має містити щонайменше 2 символи", "name_too_long": "Ім'я не може перевищувати 100 символів" },
+  "toast": { "success": "Агент успішно зареєстрований!", "error": "Помилка реєстрації", "copied": "Скопійовано до буфера обміну", "wallet_connected": "Гаманець підключено", "wallet_disconnected": "Гаманець від'єднано", "wrong_network": "Будь ласка, перейдіть на правильну мережу" },
+  "dashboard": { "agent_id": "ID Агента", "owner": "Власник", "chain": "Ланцюг", "tx_hash": "Хеш Транзакції", "block": "Блок", "gas_used": "Використано Gas", "status": "Статус", "active": "Активний", "inactive": "Неактивний" },
+  "chains": { "bsc_testnet": "BSC Тестнет", "bsc_mainnet": "BSC Мейннет", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "Створено з ERC-8004", "by": "від", "docs": "Документація", "github": "GitHub", "standard": "Стандарт ERC-8004" }
+}

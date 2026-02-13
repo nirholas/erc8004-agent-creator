@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 Agent Creator", "subtitle": "Registreer trustless AI-agents on-chain", "description": "Maak en registreer ERC-8004 trustless AI-agents op elke EVM-chain." },
+  "nav": { "home": "Home", "docs": "Documentatie", "github": "GitHub", "language": "Taal" },
+  "wizard": { "step1": "Agent Identiteit", "step1_desc": "Definieer naam, beschrijving en afbeelding", "step2": "Service Endpoints", "step2_desc": "Configureer A2A, MCP en andere endpoints", "step3": "Configuratie & Vertrouwen", "step3_desc": "Stel vertrouwensmechanismen en betalingsondersteuning in", "step4": "On-Chain Deployment", "step4_desc": "Registreer je agent op de blockchain" },
+  "form": { "name": "Agent Naam", "name_placeholder": "Mijn AI Agent", "description": "Beschrijving", "description_placeholder": "Wat doet je agent?", "image": "Afbeelding URL", "image_placeholder": "https://example.com/avatar.png", "service_name": "Service Naam", "service_endpoint": "Endpoint URL", "add_service": "Service Toevoegen", "remove": "Verwijderen" },
+  "buttons": { "next": "Volgende", "back": "Terug", "deploy": "Agent Deployen", "connect_wallet": "Wallet Verbinden", "copy": "Kopiëren", "view_explorer": "Bekijk in Explorer" },
+  "validation": { "required": "Dit veld is verplicht", "invalid_url": "Voer een geldige URL in", "name_too_short": "Naam moet minimaal 2 tekens bevatten", "name_too_long": "Naam mag niet meer dan 100 tekens bevatten" },
+  "toast": { "success": "Agent succesvol geregistreerd!", "error": "Registratie mislukt", "copied": "Gekopieerd naar klembord", "wallet_connected": "Wallet verbonden", "wallet_disconnected": "Wallet losgekoppeld", "wrong_network": "Schakel naar het juiste netwerk" },
+  "dashboard": { "agent_id": "Agent ID", "owner": "Eigenaar", "chain": "Chain", "tx_hash": "Transactie Hash", "block": "Blok", "gas_used": "Gas Gebruikt", "status": "Status", "active": "Actief", "inactive": "Inactief" },
+  "chains": { "bsc_testnet": "BSC Testnet", "bsc_mainnet": "BSC Mainnet", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "Gebouwd met ERC-8004", "by": "door", "docs": "Documentatie", "github": "GitHub", "standard": "ERC-8004 Standaard" }
+}

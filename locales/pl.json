@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 Kreator Agentów", "subtitle": "Rejestruj agentów AI bez zaufania on-chain", "description": "Twórz i rejestruj agentów AI ERC-8004 bez zaufania na dowolnym łańcuchu EVM." },
+  "nav": { "home": "Strona główna", "docs": "Dokumentacja", "github": "GitHub", "language": "Język" },
+  "wizard": { "step1": "Tożsamość Agenta", "step1_desc": "Zdefiniuj nazwę, opis i obraz", "step2": "Punkty Końcowe", "step2_desc": "Skonfiguruj endpointy A2A, MCP i inne", "step3": "Konfiguracja i Zaufanie", "step3_desc": "Ustaw mechanizmy zaufania i obsługę płatności", "step4": "Wdrożenie On-Chain", "step4_desc": "Zarejestruj agenta na blockchainie" },
+  "form": { "name": "Nazwa Agenta", "name_placeholder": "Mój Agent AI", "description": "Opis", "description_placeholder": "Co robi twój agent?", "image": "URL Obrazu", "image_placeholder": "https://example.com/avatar.png", "service_name": "Nazwa Usługi", "service_endpoint": "URL Endpointu", "add_service": "Dodaj Usługę", "remove": "Usuń" },
+  "buttons": { "next": "Dalej", "back": "Wstecz", "deploy": "Wdróż Agenta", "connect_wallet": "Połącz Portfel", "copy": "Kopiuj", "view_explorer": "Zobacz w Eksploratorze" },
+  "validation": { "required": "To pole jest wymagane", "invalid_url": "Wprowadź prawidłowy URL", "name_too_short": "Nazwa musi mieć co najmniej 2 znaki", "name_too_long": "Nazwa nie może przekraczać 100 znaków" },
+  "toast": { "success": "Agent zarejestrowany pomyślnie!", "error": "Rejestracja nie powiodła się", "copied": "Skopiowano do schowka", "wallet_connected": "Portfel połączony", "wallet_disconnected": "Portfel rozłączony", "wrong_network": "Proszę przełączyć na właściwą sieć" },
+  "dashboard": { "agent_id": "ID Agenta", "owner": "Właściciel", "chain": "Łańcuch", "tx_hash": "Hash Transakcji", "block": "Blok", "gas_used": "Zużyty Gas", "status": "Status", "active": "Aktywny", "inactive": "Nieaktywny" },
+  "chains": { "bsc_testnet": "BSC Testnet", "bsc_mainnet": "BSC Mainnet", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "Zbudowano z ERC-8004", "by": "przez", "docs": "Dokumentacja", "github": "GitHub", "standard": "Standard ERC-8004" }
+}

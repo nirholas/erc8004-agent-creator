@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 Pembuat Agen", "subtitle": "Daftarkan agen AI trustless di on-chain", "description": "Buat dan daftarkan agen AI ERC-8004 trustless di jaringan EVM manapun." },
+  "nav": { "home": "Beranda", "docs": "Dokumentasi", "github": "GitHub", "language": "Bahasa" },
+  "wizard": { "step1": "Identitas Agen", "step1_desc": "Tentukan nama, deskripsi, dan gambar", "step2": "Titik Layanan", "step2_desc": "Konfigurasi endpoint A2A, MCP, dan lainnya", "step3": "Konfigurasi & Kepercayaan", "step3_desc": "Atur mekanisme kepercayaan dan dukungan pembayaran", "step4": "Deploy On-Chain", "step4_desc": "Daftarkan agen Anda di blockchain" },
+  "form": { "name": "Nama Agen", "name_placeholder": "Agen AI Saya", "description": "Deskripsi", "description_placeholder": "Apa yang dilakukan agen Anda?", "image": "URL Gambar", "image_placeholder": "https://example.com/avatar.png", "service_name": "Nama Layanan", "service_endpoint": "URL Endpoint", "add_service": "Tambah Layanan", "remove": "Hapus" },
+  "buttons": { "next": "Lanjut", "back": "Kembali", "deploy": "Deploy Agen", "connect_wallet": "Hubungkan Dompet", "copy": "Salin", "view_explorer": "Lihat di Explorer" },
+  "validation": { "required": "Kolom ini wajib diisi", "invalid_url": "Masukkan URL yang valid", "name_too_short": "Nama harus minimal 2 karakter", "name_too_long": "Nama tidak boleh melebihi 100 karakter" },
+  "toast": { "success": "Agen berhasil didaftarkan!", "error": "Pendaftaran gagal", "copied": "Disalin ke clipboard", "wallet_connected": "Dompet terhubung", "wallet_disconnected": "Dompet terputus", "wrong_network": "Silakan beralih ke jaringan yang benar" },
+  "dashboard": { "agent_id": "ID Agen", "owner": "Pemilik", "chain": "Jaringan", "tx_hash": "Hash Transaksi", "block": "Blok", "gas_used": "Gas Terpakai", "status": "Status", "active": "Aktif", "inactive": "Tidak Aktif" },
+  "chains": { "bsc_testnet": "BSC Testnet", "bsc_mainnet": "BSC Mainnet", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "Dibangun dengan ERC-8004", "by": "oleh", "docs": "Dokumentasi", "github": "GitHub", "standard": "Standar ERC-8004" }
+}
