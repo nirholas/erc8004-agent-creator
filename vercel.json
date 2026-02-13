@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "installCommand": "",
-  "buildCommand": "mkdir -p dist && cp -a public/. dist/ && cp index.html dist/ && cp header.svg dist/ 2>/dev/null; cp og-image.svg dist/ 2>/dev/null; cp ai.txt dist/ 2>/dev/null; cp llms.txt dist/ 2>/dev/null; cp llms-full.txt dist/ 2>/dev/null; cp SKILL.md dist/ 2>/dev/null; true",
+  "buildCommand": "sh build.sh",
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": false,
