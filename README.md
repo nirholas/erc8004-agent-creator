@@ -152,16 +152,16 @@ Drop `index.html` on Vercel, Netlify, GitHub Pages, IPFS, or any static host. On
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    ERC-8004 Agent Creator                    │
+│                    ERC-8004 Agent Creator                   │
 │                                                             │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
-│  │ 1. Agent  │→ │2. Service│→ │3. Config │→ │4. Deploy │   │
-│  │ Identity  │  │Endpoints │  │  & Trust │  │ On-Chain │   │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘   │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐     │
+│  │ 1. Agent │→ │2. Service│→ │3. Config │→ │4. Deploy │     │
+│  │ Identity │  │Endpoints │  │  & Trust │  │On-Chain  │     │
+│  └──────────┘  └──────────┘  └──────────┘  └──────────┘     │
 │       │                                          │          │
 │       ▼                                          ▼          │
-│  Name, Desc,                              register() call   │
-│  Image URL                                on IdentityRegistry│
+│  Name, Desc,                             register() call    │
+│  Image URL                               on IdentityRegistry│
 │                                                │            │
 │                                                ▼            │
 │                                     ERC-721 NFT minted      │
