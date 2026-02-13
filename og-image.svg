@@ -61,6 +61,6 @@
   
   <!-- Bottom bar -->
   <rect x="0" y="570" width="1200" height="60" fill="rgba(240,185,11,0.05)"/>
-  <text x="80" y="607" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="16" fill="rgba(255,255,255,0.5)">erc8004.vercel.app</text>
+  <text x="80" y="607" font-family="system-ui,-apple-system,sans-serif" font-weight="600" font-size="16" fill="rgba(255,255,255,0.5)">erc8004.agency</text>
   <text x="1120" y="607" text-anchor="end" font-family="system-ui,-apple-system,sans-serif" font-weight="500" font-size="14" fill="rgba(255,255,255,0.35)">by nich · BNB Chain AI Toolkit</text>
 </svg>
