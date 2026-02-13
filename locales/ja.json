@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 エージェント作成ツール", "subtitle": "信頼不要のAIエージェントをオンチェーンに登録", "description": "任意のEVMチェーンでERC-8004信頼不要AIエージェントを作成・登録。" },
+  "nav": { "home": "ホーム", "docs": "ドキュメント", "github": "GitHub", "language": "言語" },
+  "wizard": { "step1": "エージェントID", "step1_desc": "名前、説明、画像を定義", "step2": "サービスエンドポイント", "step2_desc": "A2A、MCPなどのエンドポイントを設定", "step3": "設定と信頼", "step3_desc": "信頼メカニズムと決済サポートを設定", "step4": "オンチェーンデプロイ", "step4_desc": "ブロックチェーンにエージェントを登録" },
+  "form": { "name": "エージェント名", "name_placeholder": "マイAIエージェント", "description": "説明", "description_placeholder": "エージェントの機能は？", "image": "画像URL", "image_placeholder": "https://example.com/avatar.png", "service_name": "サービス名", "service_endpoint": "エンドポイントURL", "add_service": "サービス追加", "remove": "削除" },
+  "buttons": { "next": "次へ", "back": "戻る", "deploy": "エージェントをデプロイ", "connect_wallet": "ウォレット接続", "copy": "コピー", "view_explorer": "エクスプローラーで表示" },
+  "validation": { "required": "この項目は必須です", "invalid_url": "有効なURLを入力してください", "name_too_short": "名前は2文字以上必要です", "name_too_long": "名前は100文字以内にしてください" },
+  "toast": { "success": "エージェント登録成功！", "error": "登録に失敗しました", "copied": "クリップボードにコピーしました", "wallet_connected": "ウォレット接続済み", "wallet_disconnected": "ウォレット切断済み", "wrong_network": "正しいネットワークに切り替えてください" },
+  "dashboard": { "agent_id": "エージェントID", "owner": "所有者", "chain": "チェーン", "tx_hash": "トランザクションハッシュ", "block": "ブロック", "gas_used": "ガス使用量", "status": "ステータス", "active": "アクティブ", "inactive": "非アクティブ" },
+  "chains": { "bsc_testnet": "BSCテストネット", "bsc_mainnet": "BSCメインネット", "ethereum": "イーサリアム", "sepolia": "Sepolia" },
+  "footer": { "built_with": "ERC-8004で構築", "by": "制作", "docs": "ドキュメント", "github": "GitHub", "standard": "ERC-8004標準" }
+}

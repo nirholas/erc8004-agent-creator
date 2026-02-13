@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 एजेंट क्रिएटर", "subtitle": "ट्रस्टलेस AI एजेंट ऑन-चेन रजिस्टर करें", "description": "किसी भी EVM चेन पर ERC-8004 ट्रस्टलेस AI एजेंट बनाएं और रजिस्टर करें।" },
+  "nav": { "home": "होम", "docs": "डॉक्स", "github": "GitHub", "language": "भाषा" },
+  "wizard": { "step1": "एजेंट पहचान", "step1_desc": "नाम, विवरण और छवि परिभाषित करें", "step2": "सेवा एंडपॉइंट", "step2_desc": "A2A, MCP और अन्य एंडपॉइंट कॉन्फ़िगर करें", "step3": "कॉन्फ़िगरेशन और ट्रस्ट", "step3_desc": "ट्रस्ट मैकेनिज़्म और भुगतान सहायता सेट करें", "step4": "ऑन-चेन डिप्लॉय", "step4_desc": "ब्लॉकचेन पर अपना एजेंट रजिस्टर करें" },
+  "form": { "name": "एजेंट का नाम", "name_placeholder": "मेरा AI एजेंट", "description": "विवरण", "description_placeholder": "आपका एजेंट क्या करता है?", "image": "इमेज URL", "image_placeholder": "https://example.com/avatar.png", "service_name": "सेवा का नाम", "service_endpoint": "एंडपॉइंट URL", "add_service": "सेवा जोड़ें", "remove": "हटाएं" },
+  "buttons": { "next": "अगला", "back": "पीछे", "deploy": "एजेंट डिप्लॉय करें", "connect_wallet": "वॉलेट कनेक्ट करें", "copy": "कॉपी", "view_explorer": "एक्सप्लोरर में देखें" },
+  "validation": { "required": "यह फ़ील्ड आवश्यक है", "invalid_url": "कृपया एक मान्य URL दर्ज करें", "name_too_short": "नाम कम से कम 2 अक्षर का होना चाहिए", "name_too_long": "नाम 100 अक्षरों से अधिक नहीं हो सकता" },
+  "toast": { "success": "एजेंट सफलतापूर्वक रजिस्टर हुआ!", "error": "रजिस्ट्रेशन विफल", "copied": "क्लिपबोर्ड पर कॉपी किया गया", "wallet_connected": "वॉलेट कनेक्ट हुआ", "wallet_disconnected": "वॉलेट डिस्कनेक्ट हुआ", "wrong_network": "कृपया सही नेटवर्क पर स्विच करें" },
+  "dashboard": { "agent_id": "एजेंट ID", "owner": "मालिक", "chain": "चेन", "tx_hash": "ट्रांजैक्शन हैश", "block": "ब्लॉक", "gas_used": "गैस उपयोग", "status": "स्थिति", "active": "सक्रिय", "inactive": "निष्क्रिय" },
+  "chains": { "bsc_testnet": "BSC टेस्टनेट", "bsc_mainnet": "BSC मेननेट", "ethereum": "एथेरियम", "sepolia": "सेपोलिया" },
+  "footer": { "built_with": "ERC-8004 से निर्मित", "by": "द्वारा", "docs": "डॉक्स", "github": "GitHub", "standard": "ERC-8004 मानक" }
+}

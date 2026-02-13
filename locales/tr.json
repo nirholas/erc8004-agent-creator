@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 Ajan Oluşturucu", "subtitle": "Güvensiz AI ajanlarını zincir üzerinde kaydedin", "description": "Herhangi bir EVM zincirinde ERC-8004 güvensiz AI ajanları oluşturun ve kaydedin." },
+  "nav": { "home": "Ana Sayfa", "docs": "Belgeler", "github": "GitHub", "language": "Dil" },
+  "wizard": { "step1": "Ajan Kimliği", "step1_desc": "Ad, açıklama ve görsel tanımlayın", "step2": "Hizmet Uç Noktaları", "step2_desc": "A2A, MCP ve diğer uç noktaları yapılandırın", "step3": "Yapılandırma ve Güven", "step3_desc": "Güven mekanizmalarını ve ödeme desteğini ayarlayın", "step4": "Zincir Üzerinde Dağıtım", "step4_desc": "Ajanınızı blokzincire kaydedin" },
+  "form": { "name": "Ajan Adı", "name_placeholder": "AI Ajanım", "description": "Açıklama", "description_placeholder": "Ajanınız ne yapar?", "image": "Görsel URL", "image_placeholder": "https://example.com/avatar.png", "service_name": "Hizmet Adı", "service_endpoint": "Uç Nokta URL", "add_service": "Hizmet Ekle", "remove": "Kaldır" },
+  "buttons": { "next": "İleri", "back": "Geri", "deploy": "Ajanı Dağıt", "connect_wallet": "Cüzdan Bağla", "copy": "Kopyala", "view_explorer": "Gezginde Görüntüle" },
+  "validation": { "required": "Bu alan zorunludur", "invalid_url": "Lütfen geçerli bir URL girin", "name_too_short": "Ad en az 2 karakter olmalıdır", "name_too_long": "Ad 100 karakteri geçemez" },
+  "toast": { "success": "Ajan başarıyla kaydedildi!", "error": "Kayıt başarısız", "copied": "Panoya kopyalandı", "wallet_connected": "Cüzdan bağlandı", "wallet_disconnected": "Cüzdan bağlantısı kesildi", "wrong_network": "Lütfen doğru ağa geçin" },
+  "dashboard": { "agent_id": "Ajan ID", "owner": "Sahip", "chain": "Zincir", "tx_hash": "İşlem Hash", "block": "Blok", "gas_used": "Kullanılan Gas", "status": "Durum", "active": "Aktif", "inactive": "Pasif" },
+  "chains": { "bsc_testnet": "BSC Testnet", "bsc_mainnet": "BSC Mainnet", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "ERC-8004 ile yapıldı", "by": "tarafından", "docs": "Belgeler", "github": "GitHub", "standard": "ERC-8004 Standardı" }
+}

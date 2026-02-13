@@ -1,0 +1,81 @@
+{
+  "app": {
+    "title": "ERC-8004 Agent Creator",
+    "subtitle": "Register Trustless AI Agents On-Chain",
+    "description": "Create and register ERC-8004 trustless AI agents on any EVM chain."
+  },
+  "nav": {
+    "home": "Home",
+    "docs": "Docs",
+    "github": "GitHub",
+    "language": "Language"
+  },
+  "wizard": {
+    "step1": "Agent Identity",
+    "step1_desc": "Define your agent's name, description, and image",
+    "step2": "Service Endpoints",
+    "step2_desc": "Configure A2A, MCP, and other service endpoints",
+    "step3": "Config & Trust",
+    "step3_desc": "Set up trust mechanisms and payment support",
+    "step4": "Deploy On-Chain",
+    "step4_desc": "Register your agent on the blockchain"
+  },
+  "form": {
+    "name": "Agent Name",
+    "name_placeholder": "My AI Agent",
+    "description": "Description",
+    "description_placeholder": "What does your agent do?",
+    "image": "Image URL",
+    "image_placeholder": "https://example.com/avatar.png",
+    "service_name": "Service Name",
+    "service_endpoint": "Endpoint URL",
+    "add_service": "Add Service",
+    "remove": "Remove"
+  },
+  "buttons": {
+    "next": "Next",
+    "back": "Back",
+    "deploy": "Deploy Agent",
+    "connect_wallet": "Connect Wallet",
+    "copy": "Copy",
+    "view_explorer": "View on Explorer"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalid_url": "Please enter a valid URL",
+    "name_too_short": "Name must be at least 2 characters",
+    "name_too_long": "Name must be less than 100 characters"
+  },
+  "toast": {
+    "success": "Agent registered successfully!",
+    "error": "Registration failed",
+    "copied": "Copied to clipboard",
+    "wallet_connected": "Wallet connected",
+    "wallet_disconnected": "Wallet disconnected",
+    "wrong_network": "Please switch to the correct network"
+  },
+  "dashboard": {
+    "agent_id": "Agent ID",
+    "owner": "Owner",
+    "chain": "Chain",
+    "tx_hash": "Transaction Hash",
+    "block": "Block",
+    "gas_used": "Gas Used",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "chains": {
+    "bsc_testnet": "BSC Testnet",
+    "bsc_mainnet": "BSC Mainnet",
+    "ethereum": "Ethereum",
+    "sepolia": "Sepolia"
+  },
+  "footer": {
+    "built_with": "Built with ERC-8004",
+    "by": "by",
+    "docs": "Documentation",
+    "github": "GitHub",
+    "standard": "ERC-8004 Standard"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 ตัวสร้างเอเจนต์", "subtitle": "ลงทะเบียนเอเจนต์ AI แบบไม่ต้องเชื่อถือบนเชน", "description": "สร้างและลงทะเบียนเอเจนต์ AI ERC-8004 แบบไม่ต้องเชื่อถือบนเชน EVM ใดก็ได้" },
+  "nav": { "home": "หน้าแรก", "docs": "เอกสาร", "github": "GitHub", "language": "ภาษา" },
+  "wizard": { "step1": "ตัวตนเอเจนต์", "step1_desc": "กำหนดชื่อ คำอธิบาย และรูปภาพ", "step2": "จุดปลายบริการ", "step2_desc": "กำหนดค่า A2A, MCP และจุดปลายอื่นๆ", "step3": "การตั้งค่าและความเชื่อถือ", "step3_desc": "ตั้งค่ากลไกความเชื่อถือและการรองรับการชำระเงิน", "step4": "ติดตั้งบนเชน", "step4_desc": "ลงทะเบียนเอเจนต์บนบล็อกเชน" },
+  "form": { "name": "ชื่อเอเจนต์", "name_placeholder": "เอเจนต์ AI ของฉัน", "description": "คำอธิบาย", "description_placeholder": "เอเจนต์ของคุณทำอะไร?", "image": "URL รูปภาพ", "image_placeholder": "https://example.com/avatar.png", "service_name": "ชื่อบริการ", "service_endpoint": "URL จุดปลาย", "add_service": "เพิ่มบริการ", "remove": "ลบ" },
+  "buttons": { "next": "ถัดไป", "back": "กลับ", "deploy": "ติดตั้งเอเจนต์", "connect_wallet": "เชื่อมต่อกระเป๋า", "copy": "คัดลอก", "view_explorer": "ดูใน Explorer" },
+  "validation": { "required": "จำเป็นต้องกรอกช่องนี้", "invalid_url": "กรุณากรอก URL ที่ถูกต้อง", "name_too_short": "ชื่อต้องมีอย่างน้อย 2 ตัวอักษร", "name_too_long": "ชื่อต้องไม่เกิน 100 ตัวอักษร" },
+  "toast": { "success": "ลงทะเบียนเอเจนต์สำเร็จ!", "error": "การลงทะเบียนล้มเหลว", "copied": "คัดลอกไปยังคลิปบอร์ดแล้ว", "wallet_connected": "เชื่อมต่อกระเป๋าแล้ว", "wallet_disconnected": "ยกเลิกการเชื่อมต่อกระเป๋าแล้ว", "wrong_network": "กรุณาเปลี่ยนไปยังเครือข่ายที่ถูกต้อง" },
+  "dashboard": { "agent_id": "ID เอเจนต์", "owner": "เจ้าของ", "chain": "เชน", "tx_hash": "แฮชธุรกรรม", "block": "บล็อก", "gas_used": "Gas ที่ใช้", "status": "สถานะ", "active": "ใช้งาน", "inactive": "ไม่ใช้งาน" },
+  "chains": { "bsc_testnet": "BSC Testnet", "bsc_mainnet": "BSC Mainnet", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "สร้างด้วย ERC-8004", "by": "โดย", "docs": "เอกสาร", "github": "GitHub", "standard": "มาตรฐาน ERC-8004" }
+}

@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 Agent-Ersteller", "subtitle": "Vertrauenslose KI-Agenten on-chain registrieren", "description": "Erstellen und registrieren Sie ERC-8004 vertrauenslose KI-Agenten auf jeder EVM-Chain." },
+  "nav": { "home": "Startseite", "docs": "Dokumentation", "github": "GitHub", "language": "Sprache" },
+  "wizard": { "step1": "Agent-Identität", "step1_desc": "Name, Beschreibung und Bild definieren", "step2": "Service-Endpunkte", "step2_desc": "A2A-, MCP- und andere Endpunkte konfigurieren", "step3": "Konfiguration & Vertrauen", "step3_desc": "Vertrauensmechanismen und Zahlungsunterstützung einrichten", "step4": "On-Chain-Bereitstellung", "step4_desc": "Ihren Agenten auf der Blockchain registrieren" },
+  "form": { "name": "Agent-Name", "name_placeholder": "Mein KI-Agent", "description": "Beschreibung", "description_placeholder": "Was macht Ihr Agent?", "image": "Bild-URL", "image_placeholder": "https://example.com/avatar.png", "service_name": "Service-Name", "service_endpoint": "Endpunkt-URL", "add_service": "Service hinzufügen", "remove": "Entfernen" },
+  "buttons": { "next": "Weiter", "back": "Zurück", "deploy": "Agent bereitstellen", "connect_wallet": "Wallet verbinden", "copy": "Kopieren", "view_explorer": "Im Explorer anzeigen" },
+  "validation": { "required": "Dieses Feld ist erforderlich", "invalid_url": "Bitte geben Sie eine gültige URL ein", "name_too_short": "Der Name muss mindestens 2 Zeichen lang sein", "name_too_long": "Der Name darf 100 Zeichen nicht überschreiten" },
+  "toast": { "success": "Agent erfolgreich registriert!", "error": "Registrierung fehlgeschlagen", "copied": "In die Zwischenablage kopiert", "wallet_connected": "Wallet verbunden", "wallet_disconnected": "Wallet getrennt", "wrong_network": "Bitte zum richtigen Netzwerk wechseln" },
+  "dashboard": { "agent_id": "Agent-ID", "owner": "Eigentümer", "chain": "Chain", "tx_hash": "Transaktions-Hash", "block": "Block", "gas_used": "Gas verbraucht", "status": "Status", "active": "Aktiv", "inactive": "Inaktiv" },
+  "chains": { "bsc_testnet": "BSC Testnet", "bsc_mainnet": "BSC Mainnet", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "Erstellt mit ERC-8004", "by": "von", "docs": "Dokumentation", "github": "GitHub", "standard": "ERC-8004-Standard" }
+}

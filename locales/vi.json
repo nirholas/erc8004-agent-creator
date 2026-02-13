@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 Trình Tạo Agent", "subtitle": "Đăng ký agent AI không cần tin cậy trên chuỗi", "description": "Tạo và đăng ký agent AI ERC-8004 không cần tin cậy trên bất kỳ chuỗi EVM nào." },
+  "nav": { "home": "Trang chủ", "docs": "Tài liệu", "github": "GitHub", "language": "Ngôn ngữ" },
+  "wizard": { "step1": "Danh tính Agent", "step1_desc": "Xác định tên, mô tả và hình ảnh", "step2": "Điểm cuối Dịch vụ", "step2_desc": "Cấu hình các điểm cuối A2A, MCP", "step3": "Cấu hình & Tin cậy", "step3_desc": "Thiết lập cơ chế tin cậy và hỗ trợ thanh toán", "step4": "Triển khai On-Chain", "step4_desc": "Đăng ký agent trên blockchain" },
+  "form": { "name": "Tên Agent", "name_placeholder": "Agent AI của tôi", "description": "Mô tả", "description_placeholder": "Agent của bạn làm gì?", "image": "URL Hình ảnh", "image_placeholder": "https://example.com/avatar.png", "service_name": "Tên Dịch vụ", "service_endpoint": "URL Điểm cuối", "add_service": "Thêm Dịch vụ", "remove": "Xóa" },
+  "buttons": { "next": "Tiếp", "back": "Quay lại", "deploy": "Triển khai Agent", "connect_wallet": "Kết nối Ví", "copy": "Sao chép", "view_explorer": "Xem trên Explorer" },
+  "validation": { "required": "Trường này là bắt buộc", "invalid_url": "Vui lòng nhập URL hợp lệ", "name_too_short": "Tên phải có ít nhất 2 ký tự", "name_too_long": "Tên không được vượt quá 100 ký tự" },
+  "toast": { "success": "Đăng ký agent thành công!", "error": "Đăng ký thất bại", "copied": "Đã sao chép vào bộ nhớ tạm", "wallet_connected": "Ví đã kết nối", "wallet_disconnected": "Ví đã ngắt kết nối", "wrong_network": "Vui lòng chuyển sang mạng đúng" },
+  "dashboard": { "agent_id": "ID Agent", "owner": "Chủ sở hữu", "chain": "Chuỗi", "tx_hash": "Hash Giao dịch", "block": "Khối", "gas_used": "Gas đã dùng", "status": "Trạng thái", "active": "Hoạt động", "inactive": "Không hoạt động" },
+  "chains": { "bsc_testnet": "BSC Testnet", "bsc_mainnet": "BSC Mainnet", "ethereum": "Ethereum", "sepolia": "Sepolia" },
+  "footer": { "built_with": "Xây dựng với ERC-8004", "by": "bởi", "docs": "Tài liệu", "github": "GitHub", "standard": "Tiêu chuẩn ERC-8004" }
+}

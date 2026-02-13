@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 에이전트 생성기", "subtitle": "신뢰 불필요 AI 에이전트를 온체인에 등록", "description": "모든 EVM 체인에서 ERC-8004 무신뢰 AI 에이전트를 생성하고 등록하세요." },
+  "nav": { "home": "홈", "docs": "문서", "github": "GitHub", "language": "언어" },
+  "wizard": { "step1": "에이전트 신원", "step1_desc": "이름, 설명, 이미지 정의", "step2": "서비스 엔드포인트", "step2_desc": "A2A, MCP 등 엔드포인트 구성", "step3": "구성 및 신뢰", "step3_desc": "신뢰 메커니즘 및 결제 지원 설정", "step4": "온체인 배포", "step4_desc": "블록체인에 에이전트 등록" },
+  "form": { "name": "에이전트 이름", "name_placeholder": "내 AI 에이전트", "description": "설명", "description_placeholder": "에이전트의 기능은?", "image": "이미지 URL", "image_placeholder": "https://example.com/avatar.png", "service_name": "서비스 이름", "service_endpoint": "엔드포인트 URL", "add_service": "서비스 추가", "remove": "삭제" },
+  "buttons": { "next": "다음", "back": "뒤로", "deploy": "에이전트 배포", "connect_wallet": "지갑 연결", "copy": "복사", "view_explorer": "탐색기에서 보기" },
+  "validation": { "required": "필수 항목입니다", "invalid_url": "유효한 URL을 입력하세요", "name_too_short": "이름은 최소 2자 이상이어야 합니다", "name_too_long": "이름은 100자를 초과할 수 없습니다" },
+  "toast": { "success": "에이전트가 성공적으로 등록되었습니다!", "error": "등록에 실패했습니다", "copied": "클립보드에 복사되었습니다", "wallet_connected": "지갑이 연결되었습니다", "wallet_disconnected": "지갑이 연결 해제되었습니다", "wrong_network": "올바른 네트워크로 전환하세요" },
+  "dashboard": { "agent_id": "에이전트 ID", "owner": "소유자", "chain": "체인", "tx_hash": "트랜잭션 해시", "block": "블록", "gas_used": "가스 사용량", "status": "상태", "active": "활성", "inactive": "비활성" },
+  "chains": { "bsc_testnet": "BSC 테스트넷", "bsc_mainnet": "BSC 메인넷", "ethereum": "이더리움", "sepolia": "Sepolia" },
+  "footer": { "built_with": "ERC-8004로 구축", "by": "제작", "docs": "문서", "github": "GitHub", "standard": "ERC-8004 표준" }
+}

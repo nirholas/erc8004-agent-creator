@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "ERC-8004 智慧體建立器",
+    "subtitle": "在鏈上註冊無信任AI智慧體",
+    "description": "在任何EVM鏈上建立和註冊ERC-8004無信任AI智慧體。"
+  },
+  "nav": { "home": "首頁", "docs": "文件", "github": "GitHub", "language": "語言" },
+  "wizard": {
+    "step1": "智慧體身份", "step1_desc": "定義智慧體的名稱、描述和圖像",
+    "step2": "服務端點", "step2_desc": "設定A2A、MCP和其他服務端點",
+    "step3": "設定與信任", "step3_desc": "設定信任機制和付款支援",
+    "step4": "鏈上部署", "step4_desc": "在區塊鏈上註冊您的智慧體"
+  },
+  "form": {
+    "name": "智慧體名稱", "name_placeholder": "我的AI智慧體",
+    "description": "描述", "description_placeholder": "您的智慧體做什麼？",
+    "image": "圖像URL", "image_placeholder": "https://example.com/avatar.png",
+    "service_name": "服務名稱", "service_endpoint": "端點URL",
+    "add_service": "新增服務", "remove": "刪除"
+  },
+  "buttons": {
+    "next": "下一步", "back": "返回", "deploy": "部署智慧體",
+    "connect_wallet": "連接錢包", "copy": "複製", "view_explorer": "在瀏覽器中檢視"
+  },
+  "validation": {
+    "required": "此欄位為必填", "invalid_url": "請輸入有效的URL",
+    "name_too_short": "名稱至少需要2個字元", "name_too_long": "名稱不能超過100個字元"
+  },
+  "toast": {
+    "success": "智慧體註冊成功！", "error": "註冊失敗",
+    "copied": "已複製到剪貼簿", "wallet_connected": "錢包已連接",
+    "wallet_disconnected": "錢包已斷開", "wrong_network": "請切換到正確的網路"
+  },
+  "dashboard": {
+    "agent_id": "智慧體ID", "owner": "擁有者", "chain": "鏈",
+    "tx_hash": "交易雜湊", "block": "區塊", "gas_used": "Gas消耗",
+    "status": "狀態", "active": "活躍", "inactive": "不活躍"
+  },
+  "chains": { "bsc_testnet": "BSC測試網", "bsc_mainnet": "BSC主網", "ethereum": "以太坊", "sepolia": "Sepolia" },
+  "footer": { "built_with": "基於ERC-8004建立", "by": "由", "docs": "文件", "github": "GitHub", "standard": "ERC-8004標準" }
+}

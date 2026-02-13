@@ -1,0 +1,12 @@
+{
+  "app": { "title": "ERC-8004 منشئ الوكلاء", "subtitle": "سجّل وكلاء ذكاء اصطناعي بدون ثقة على السلسلة", "description": "أنشئ وسجّل وكلاء ذكاء اصطناعي ERC-8004 بدون ثقة على أي سلسلة EVM." },
+  "nav": { "home": "الرئيسية", "docs": "المستندات", "github": "GitHub", "language": "اللغة" },
+  "wizard": { "step1": "هوية الوكيل", "step1_desc": "حدد الاسم والوصف والصورة", "step2": "نقاط الخدمة", "step2_desc": "اضبط نقاط A2A وMCP وغيرها", "step3": "الإعداد والثقة", "step3_desc": "اضبط آليات الثقة ودعم الدفع", "step4": "النشر على السلسلة", "step4_desc": "سجّل وكيلك على البلوكتشين" },
+  "form": { "name": "اسم الوكيل", "name_placeholder": "وكيل الذكاء الاصطناعي", "description": "الوصف", "description_placeholder": "ماذا يفعل وكيلك؟", "image": "رابط الصورة", "image_placeholder": "https://example.com/avatar.png", "service_name": "اسم الخدمة", "service_endpoint": "رابط نقطة الخدمة", "add_service": "إضافة خدمة", "remove": "حذف" },
+  "buttons": { "next": "التالي", "back": "رجوع", "deploy": "نشر الوكيل", "connect_wallet": "ربط المحفظة", "copy": "نسخ", "view_explorer": "عرض في المستكشف" },
+  "validation": { "required": "هذا الحقل مطلوب", "invalid_url": "أدخل رابطاً صالحاً", "name_too_short": "يجب أن يتكون الاسم من حرفين على الأقل", "name_too_long": "لا يمكن أن يتجاوز الاسم 100 حرف" },
+  "toast": { "success": "تم تسجيل الوكيل بنجاح!", "error": "فشل التسجيل", "copied": "تم النسخ إلى الحافظة", "wallet_connected": "تم ربط المحفظة", "wallet_disconnected": "تم فصل المحفظة", "wrong_network": "يرجى التبديل إلى الشبكة الصحيحة" },
+  "dashboard": { "agent_id": "معرّف الوكيل", "owner": "المالك", "chain": "السلسلة", "tx_hash": "هاش المعاملة", "block": "الكتلة", "gas_used": "الغاز المستخدم", "status": "الحالة", "active": "نشط", "inactive": "غير نشط" },
+  "chains": { "bsc_testnet": "BSC شبكة اختبار", "bsc_mainnet": "BSC الشبكة الرئيسية", "ethereum": "إيثريوم", "sepolia": "سيبوليا" },
+  "footer": { "built_with": "مبني بـ ERC-8004", "by": "بواسطة", "docs": "المستندات", "github": "GitHub", "standard": "معيار ERC-8004" }
+}

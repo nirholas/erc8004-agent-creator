@@ -1,0 +1,41 @@
+{
+  "app": {
+    "title": "ERC-8004 智能体创建器",
+    "subtitle": "在链上注册无信任AI智能体",
+    "description": "在任何EVM链上创建和注册ERC-8004无信任AI智能体。"
+  },
+  "nav": { "home": "首页", "docs": "文档", "github": "GitHub", "language": "语言" },
+  "wizard": {
+    "step1": "智能体身份", "step1_desc": "定义智能体的名称、描述和图像",
+    "step2": "服务端点", "step2_desc": "配置A2A、MCP和其他服务端点",
+    "step3": "配置与信任", "step3_desc": "设置信任机制和支付支持",
+    "step4": "链上部署", "step4_desc": "在区块链上注册您的智能体"
+  },
+  "form": {
+    "name": "智能体名称", "name_placeholder": "我的AI智能体",
+    "description": "描述", "description_placeholder": "您的智能体做什么？",
+    "image": "图像URL", "image_placeholder": "https://example.com/avatar.png",
+    "service_name": "服务名称", "service_endpoint": "端点URL",
+    "add_service": "添加服务", "remove": "删除"
+  },
+  "buttons": {
+    "next": "下一步", "back": "返回", "deploy": "部署智能体",
+    "connect_wallet": "连接钱包", "copy": "复制", "view_explorer": "在浏览器中查看"
+  },
+  "validation": {
+    "required": "此字段为必填项", "invalid_url": "请输入有效的URL",
+    "name_too_short": "名称至少需要2个字符", "name_too_long": "名称不能超过100个字符"
+  },
+  "toast": {
+    "success": "智能体注册成功！", "error": "注册失败",
+    "copied": "已复制到剪贴板", "wallet_connected": "钱包已连接",
+    "wallet_disconnected": "钱包已断开", "wrong_network": "请切换到正确的网络"
+  },
+  "dashboard": {
+    "agent_id": "智能体ID", "owner": "所有者", "chain": "链",
+    "tx_hash": "交易哈希", "block": "区块", "gas_used": "Gas消耗",
+    "status": "状态", "active": "活跃", "inactive": "不活跃"
+  },
+  "chains": { "bsc_testnet": "BSC测试网", "bsc_mainnet": "BSC主网", "ethereum": "以太坊", "sepolia": "Sepolia" },
+  "footer": { "built_with": "基于ERC-8004构建", "by": "由", "docs": "文档", "github": "GitHub", "standard": "ERC-8004标准" }
+}
